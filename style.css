@@ -39,21 +39,20 @@ input[type="range"] {
 
 
 .countries-container{
-  /* display: grid;
-  grid-template-columns: 50% 50%;
-  justify-content: space-between; */
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-  align-items: center;
-  padding: 15px 0;
+	/* justify-content: space-around; */
+  /* align-items: center; */
+  /* padding: 15px 0; */
 }
 
 .countries-container .card {
+  flex:  1 0 20%;
   background-color: rgb(32, 32, 32);
-  margin: 10px auto;
-  padding: 30px 100px;
+  margin: 5px;
+  padding: 30px;
+  min-width: 260px;
   border-radius: 20px;
   color: white;
   text-align: center;
@@ -70,6 +69,7 @@ input[type="range"] {
 .card img{
   width: 275px;
   height: 175px;
+  object-fit: cover;
   /* border: 1px solid white; */
 }
 
